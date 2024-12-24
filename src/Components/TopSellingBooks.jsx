@@ -62,6 +62,7 @@ export const TopSellingBooks = () => {
           onTouchEnd={handleTouchEnd}
           style={{
             WebkitOverflowScrolling: "touch", // For smooth scrolling on iOS
+            scrollBehavior: "smooth", // Enable smooth scroll behavior
           }}
         >
           {books.map((book, index) => (

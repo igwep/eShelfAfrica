@@ -35,8 +35,8 @@ const Hero = () => {
 
   {/* Navigation */}
   <div className="flex gap-4 justify-center items-center mt-6">
-    <div className="w-[150px] h-[15px] rounded-full bg-navigation1"></div>
-    <div className="w-[60px] h-[15px] rounded-full bg-navigation2"></div>
+    <div className="tablet:w-[150px] w-[80px] h-[15px] rounded-full bg-navigation1"></div>
+    <div className="tablet:w-[60px] w-[30px] h-[15px] rounded-full bg-navigation2"></div>
   </div>
 </div>
 

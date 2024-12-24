@@ -29,7 +29,7 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <div className="hidden tablet:flex gap-2">
         <button className="text-lg text-white px-3 rounded-md py-2 bg-primary">Sign in</button>
-        <button className="px-3 rounded-md py-2 text-lg">Sign up</button>
+        <button className="px-3 rounded-md py-2 text-lg text-primary">Sign up</button>
       </div>
 
       {/* Mobile Dropdown */}
@@ -40,7 +40,7 @@ const Navbar = () => {
       >
         <div className={`flex flex-col bg-white gap-2 `}>
           <button className="text-lg text-white px-3 rounded-md py-2 bg-primary">Sign in</button>
-          <button className="px-3 rounded-md py-2 text-lg">Sign up</button>
+          <button className="px-3 rounded-md py-2 text-lg text-primary">Sign up</button>
         </div>
       </div>
     </div>

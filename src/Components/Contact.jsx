@@ -30,7 +30,7 @@ export const Contact = () => {
 
   return (
     <div className="bg-gray-100">
-      <div className="flex flex-col gap-8 h-auto py-8 px-4 tablet:px-24 mx-4 tablet:mx-28">
+      <div className="flex flex-col gap-8 h-auto py-8 px-2 tablet:px-24 mx-2 tablet:mx-28">
         {/* Image and Write-up */}
         <div className="flex flex-col tablet:flex-row gap-8 items-center">
           {/* Image */}
@@ -58,7 +58,7 @@ export const Contact = () => {
         </div>
 
         {/* Contact Form */}
-        <div className="w-full tablet:max-w-[541px] max-w-2xl mx-auto p-4 mt-20">
+        <div className="w-full tablet:max-w-[541px] max-w-[581px] mx-auto p-4 mt-20">
   <form
     onSubmit={handleSubmit}
     className="bg-white p-6 pb-8 rounded-md space-y-8"
