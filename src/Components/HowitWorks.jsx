@@ -77,7 +77,7 @@ export const HowitWorks = () => {
         </div>
 
         {/* Center Graphic */}
-        <div className="absolute inset-0 justify-center items-center z-0 hidden tablet:flex">
+        <div className="absolute inset-0 justify-center items-center z-0 hidden desktop:flex">
           <img
             src="/svg/Group 2.svg"
             alt="Center Graphic"

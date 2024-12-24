@@ -68,12 +68,12 @@ export const TopSellingBooks = () => {
           {books.map((book, index) => (
             <div
               key={index}
-              className="flex-shrink-0 bg-white h-auto] w-[80%] tablet:w-[45%] desktop:w-[26%] mx-4 shadow-xl rounded-md flex flex-col items-center p-4"
+              className="flex-shrink-0 bg-white h-auto w-[80%] tablet:w-[45%] desktop:w-[26%] mx-4 shadow-xl rounded-md flex flex-col items-center p-4"
             >
               <img
                 src={book.image}
                 alt={`Slide ${index + 1}`}
-                className="w-full h-[100%] object-cover mb-2"
+                className="tablet:w-full w-[90%] tablet:h-[100%] h-[90%] object-cover mb-2"
               />
               <div className="flex justify-between w-full">
                 <div className="flex flex-col w-[70%]">

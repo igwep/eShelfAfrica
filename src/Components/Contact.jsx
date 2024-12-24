@@ -47,7 +47,7 @@ export const Contact = () => {
             <p className="font-medium text-[32px] tablet:text-[45px] leading-[48px] tablet:leading-[60px] text-gray-900">
               Make 100k every week from digital materials!
             </p>
-            <p className="text-[20px]">Sign Up to get Started</p>
+            <p className="text-[20px] flex items-center justify-center tablet:justify-start">Sign Up to get Started</p>
 
             <div className="flex justify-center tablet:justify-start">
               <button className="flex p-2 rounded-md items-center  text-white gap-3" style={{ backgroundColor: '#F9A431' }}>
